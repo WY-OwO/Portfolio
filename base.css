@@ -6,3 +6,21 @@ h1 {
     text-align: center;
     font-weight: lighter;
 }
+
+#navBar{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+}
+
+/*Buttons*/
+.button {
+    background-color: #463F3A;
+    text-align: center;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #8A817C;
+}
