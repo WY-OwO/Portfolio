@@ -10,6 +10,7 @@ h1 {
 #navBar{
     display: grid;
     grid-template-columns: auto auto;
+    grid-row: 1;
     text-align: center;
 }
 
@@ -29,11 +30,11 @@ h1 {
 }
 
 .button1{
-    background-color: white;
-    color: black;
-    border: 2px solid #463F3A;
+    background-color: #463F3A;
+    color: white;
 }
 
 .button1:hover{
     background-color: #8A817C;
+    color: white;
 }
