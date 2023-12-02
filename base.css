@@ -1,3 +1,8 @@
-body {
-    background: url("")
+h1 {
+    text-align: center;
+}
+
+#foot {
+    text-align: center;
+    font-weight: lighter;
 }
