@@ -1,3 +1,8 @@
+/*Default font*/
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 h1 {
     text-align: center;
 }
@@ -12,6 +17,8 @@ h1 {
     grid-template-columns: auto auto;
     grid-row: 1;
     text-align: center;
+    padding:0;
+    margin:0;
 }
 
 /*Buttons*/
