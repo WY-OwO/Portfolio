@@ -15,6 +15,7 @@ h1 {
 #navBar{
     text-align: center;
     grid-row: 1;
+    background-color: #463F3A;
 }
 
 /*Buttons*/
