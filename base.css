@@ -19,6 +19,12 @@ h1 {
     padding: 10;
 }
 
+/*Double Columns*/
+.doubleC{
+    grid-column: 2;
+    padding: 5;
+}
+
 /*Buttons*/
 .button1{
     background-color: #463F3A;
