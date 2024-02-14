@@ -21,6 +21,7 @@ h1 {
 
 /*Double Columns*/
 .doubleC{
+    display:grid;
     grid-column: 2;
     padding: 5;
 }
