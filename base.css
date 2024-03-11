@@ -7,6 +7,11 @@ h1 {
     text-align: center;
 }
 
+img {
+    object-fit: cover;
+    vertical-align: top;
+}
+
 #foot {
     text-align: center;
     font-weight: lighter;
@@ -18,15 +23,12 @@ h1 {
     background-color: #463F3A;
 }
 
-.container{
-    grid-column: 2;
+.gridBox{
     display: grid;
     grid-template-columns: auto auto;
-    padding: 10px;
-}
-
-.gridBox{
-    grid-column: 2;
+    gap: 15px;
+    margin: 20px;
+    width: 725px;
 }
 
 /*Buttons*/
@@ -46,4 +48,14 @@ h1 {
 .button1:hover{
     background-color: #8A817C;
     color: white;
+}
+
+/*testing container*/
+.container{
+    display: block;
+}
+
+.containerGallery{
+    align-content: flex-start;
+    object-fit: cover;
 }
