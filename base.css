@@ -50,6 +50,43 @@ img {
     color: white;
 }
 
+/*DROPDOWN BUTTON*/
+.button2{
+    background-color: #463F3A;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    width:180px;
+}
+
+.button2:hover{
+    background-color: #beac8a;
+    color:white;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    border:none;
+    display: none;
+    position:absolute;
+    z-index:1;
+}
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
 /*testing container*/
 .container{
     display: block;
