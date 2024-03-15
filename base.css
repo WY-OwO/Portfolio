@@ -50,6 +50,24 @@ img {
     color: white;
 }
 
+.button3{
+    background-color: #463F3A;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    width:180px;
+}
+
+.button3:hover{
+    background-color: #beac8a;
+    color: white;
+}
+
 /*DROPDOWN BUTTON*/
 .button2{
     background-color: #463F3A;
