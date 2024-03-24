@@ -104,6 +104,21 @@ img {
     display: block;
 }
 
+/*You're on this page, button will not react*/
+.buttonMute {
+    background-color:#dfad63;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    width:180px;
+}
+
+
 
 /*testing container*/
 .container{
