@@ -14,7 +14,7 @@ img {
 
 #foot {
     text-align: center;
-    font-family: monospace;
+    font-family:'monospace';
 }
 
 #navBar{
@@ -25,17 +25,17 @@ img {
 
 .gridBox{
     display: grid;
-    grid-template-columns: auto auto auto ;
+    grid-template-columns: auto auto;
     gap: 15px;
     padding: 15px;
 }
 
 .gridBoxThrees {
   display: grid;
-  grid-template-columns: auto auto;
-  gap: 5px;
+  grid-template-columns: auto auto auto;
   margin: 15px;
-  padding: 15px;
+  padding: 5px;
+  justify-items: center;
 }
 
 
