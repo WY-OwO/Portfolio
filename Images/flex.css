@@ -5,7 +5,7 @@ ul {
 }
   
 li {
-    height: 40vh;
+    height: 35vh;
     flex-grow: 1;
     list-style-type: none;
 }
