@@ -1,0 +1,6 @@
+.thumbpost img{
+    object-fit: none;
+    object-position: center;
+    height: 300px;
+    width: 300px;
+}
