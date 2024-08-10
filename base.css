@@ -44,7 +44,7 @@ img {
   justify-items: center;
 }
 
-
+/*-----------Borderline----------------*/
 /*Buttons*/
 .button1{
     background-color: #463F3A;
@@ -131,7 +131,7 @@ img {
     cursor: pointer;
     width:180px;
 }
-
+/*-----------Borderline----------------*/
 
 /*testing container*/
 * {

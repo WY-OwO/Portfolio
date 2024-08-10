@@ -22,20 +22,41 @@
 
     <body>
         <header>
-            <!-- place navbar here -->
+            <div id="navBar">
+                <h1>About</h1>
+                <button class="buttonMute">About</button>
+                <a href="Digital_Illustration/index.html"><button class="buttonNav">Digital Artwork</button></a>
+                <a href="Character_Design/index.html"><button class="buttonNav">Character Design</button></a>
+                <div class="dropdown">
+                    <a href="3D_Modeling/index.html"><button class="buttonNav">3D Modeling <span>^</span></button></a>
+                    <div class="dropdown-content">
+                        <a href="3D_Modeling/SubPaint.html"><button class="buttonNav">Substance Painter</button></a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="Game_Design/index.html"><button class="buttonNav">Game Design <span>^</span></button></a>
+                    <div class="dropdown-content">
+                        <a href="Game_Design/Goslayer.html"><button class="buttonNav">Godslayer</button></a>
+                        <a href="Game_Design/GoWiFlow.html"><button class="buttonNav">Go With The Flow</button></a>
+                        <a href="HellMouth.html"><button class="buttonNav">Hell Mouth</button></a>
+                        <a href="Game_Design/GDA.html"><button class="buttonNav">GDA Misc.</button></a>
+                    </div>
+                </div>
+            </div>
         </header>
         <main>
-            <p>Placeholder Text.</p>
-            <div class="row g-2 mt-auto">
+            <p>Placeholder Text, more placeholder to spread the text out, maybe I'll do something with this.</p>
+            <div class="row">
                 <div class="col-md-3 col-sm-6">
-                    <div class="container">
+                    <div class="wrapper">
                         <a href="Digital_Illustration/index.html">
-                            <div class="tranimage">
+                            <div class="image">
                                 <div 
                                 class="card border-0 rounded-0 bg-muted p-3" 
-                                style="background:url(Images/Other/Lewis.png);background-size:cover;background-position: top;height:300px;"></div>
-                                <div class="middle">
-                                    <div class="text">Digital Illustration</div>
+                                style="background:url(Images/Other/Lewis.png); 
+                                background-size:cover;background-position: top; height:300px; width:300px;"></div>
+                                <div class="content">
+                                    <p>Digital Illustration</p>
                                 </div>
                             </div>
                         </a>
@@ -43,28 +64,60 @@
                 </div>
 
                 <div class="col-md-3 col-sm-6">
-                    <a href="Character_Design/index.html">
-                        <div 
-                        class="card border-0 rounded-0 bg-muted p-3" 
-                        style="background:url(Images/Concept\ Designs/Multi\ outfit\ rework.png);background-size:cover;background-position: left;height:300px;"></div>
-                    </a>
+                    <div class="wrapper">
+                        <a href="Character_Design/index.html">
+                            <div class="image">
+                                <div 
+                                class="card border-0 rounded-0 bg-muted p-3" 
+                                style="background:url(Images/Concept\ Designs/Multi\ outfit\ rework.png); 
+                                background-size:cover;background-position: left; height:300px; width:300px;"></div>
+                                <div class="content">
+                                    <p>Character Design</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
 
                 <div class="col-md-3 col-sm-6">
-                    <div 
-                    class="card border-0 rounded-0 bg-muted p-3" 
-                    style="background:url(Images/3D\ Models/2clothesfront.png);background-size:cover;background-position: right;height:300px;"></div>
+                    <div class="wrapper">
+                        <a href="3D_Modeling/index.html">
+                            <div class="image">
+                                <div 
+                                class="card border-0 rounded-0 bg-muted p-3" 
+                                style="background:url(Images/3D\ Models/2clothesfront.png); 
+                                background-size:cover;background-position: center; height:300px; width:300px;"></div>
+                                <div class="content">
+                                    <p>3D Modeling</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
 
                 <div class="col-md-3 col-sm-6">
-                    <div 
-                    class="card border-0 rounded-0 bg-muted p-3" 
-                    style="background:url(Images/Games/Go\ with\ the\ flow/J2_Monster.png);background-size:cover;background-position: center;height:300px;"></div>
+                    <div class="wrapper">
+                        <a href="Game_Design/index.html">
+                            <div class="image">
+                                <div 
+                                class="card border-0 rounded-0 bg-muted p-3" 
+                                style="background:url(Images/Games/Go\ with\ the\ flow/J2_Monster.png); 
+                                background-size:cover;background-position: center; height:300px; width:300px;"></div>
+                                <div class="content">
+                                    <p>Game Design</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </main>
         <footer>
-            <!-- place footer here -->
+            <hr>
+            <div id="foot">
+                <p>Contact Me</p>
+                <p>jjv_2014@hotmail.com | (+86) 1-381-752-2995 | (+1) 831-226-9963</p>
+            </div>
         </footer>
         <!-- Bootstrap JavaScript Libraries -->
         <script

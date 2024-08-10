@@ -1,3 +1,18 @@
+h1 {
+    text-align: center;
+    color:white;
+    font-family: sans-serif;
+}
+
+#foot {
+    text-align: center;
+    font-family: monospace;
+}
+
+
+
+
+
 .container {
     position: relative;
 }
@@ -19,17 +34,112 @@
     text-align: center;
 }
 
-.container:hover .tranimage{
-    opacity: 0.3;
-}
-
 .container:hover .middle {
     opacity: 1;
 }
 
-.text {
-    background-color: #463F3A;
-    color:white;
-    font-size:16px;
-    padding: 16px 16px;
+.container:hover .tranimage{
+    opacity: 0.25;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.image{
+    width:500px;
+    position:relative;
+}
+img{
+    width:100%;
+    display: block;
+    margin:auto;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    position:absolute;
+    background:rgba(255, 255, 255, 0.6);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+.content:hover{
+    opacity:1;
+}
+.content p{
+    font-family: monospace;
+    color:black;
+}
+
+
+
+
+
+#navBar{
+    text-align: center;
+    grid-row: 1;
+    background-color: #0e0e0e;
+}
+
+.buttonNav{
+    background-color: #0e0e0e;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    width:180px;
+}
+
+.buttonNav:hover{
+    background-color: #beac8a;
+    color:#0e0e0e;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    border:none;
+    display: none;
+    position:absolute;
+    z-index:1;
+}
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*You're on this page, button will not react*/
+.buttonMute {
+    background-color:#dfad63;
+    border: none;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    width:180px;
 }
