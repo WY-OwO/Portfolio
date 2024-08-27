@@ -14,9 +14,31 @@ body{
     background-color: #e5e1dd;
 }
 
-span {
+.dropArrow {
     display: inline-block;
     transform: rotate(180deg);
+}
+
+
+.gridTwo{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+    padding: 15px;
+}
+
+.gridBoxThrees {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 15px;
+  padding: 5px;
+  justify-items: center;
+}
+
+.gridBoxFours {
+  display: grid;
+  grid-template-columns: 400px 400px 400px 400px;
+  justify-items: center;
 }
 
 
@@ -42,13 +64,14 @@ img{
     top:0;
     right:0;
     position:absolute;
-    background:rgba(255, 255, 255, 0.6);
+    background:rgba(255, 255, 255, 0.8);
     display:flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     opacity: 0;
     transition: 0.3s;
+    font-size: larger;
 }
 .content:hover{
     opacity:1;
