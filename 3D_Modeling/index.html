@@ -70,38 +70,28 @@
                         </p>
                     </div>
                     <div>
-                        <div class="slideshow-container">
-                            <div class="mySlides1">
-                                <img src="../Images/3D Models/1back.png" style="width:100%">
-                            </div>
-        
-                            <div class="mySlides1">
-                                <img src="../Images/3D Models/1front.png" style="width:100%">
-                            </div>
-        
-                            <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-                            <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
-                        </div>
+                        <img src="../Images/3D Models/1front.png" style="width:100%">
+                        <img src="../Images/3D Models/1back.png" style="width:100%">
                     </div>
                 </div>
 
                 <div class="gridTwo">
                     <div>
                         <div class="slideshow-container">
-                            <div class="mySlides2">
+                            <div class="mySlides1">
                               <img src="../Images/3D Models/2body.png" style="width:100%">
                             </div>
                           
-                            <div class="mySlides2">
+                            <div class="mySlides1">
                               <img src="../Images/3D Models/2clothesback.png" style="width:100%">
                             </div>
                           
-                            <div class="mySlides2">
+                            <div class="mySlides1">
                               <img src="../Images/3D Models/2clothesfront.png" style="width:100%">
                             </div>
                           
-                            <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
-                            <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                            <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
                         </div>
                     </div>
                     
@@ -125,35 +115,15 @@
                     </div>
 
                     <div>
-                        <div class="slideshow-container">
-                            <div class="mySlides3">
-                              <img src="../Images/3D Models/3head.png" style="width:100%">
-                            </div>
-                          
-                            <div class="mySlides3">
-                              <img src="../Images/3D Models/4head.png" style="width:100%">
-                            </div>
-                          
-                            <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
-                            <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
-                        </div>
+                        <img src="../Images/3D Models/3head.png" style="width:100%">
+                        <img src="../Images/3D Models/4head.png" style="width:100%">
                     </div>
                 </div>
 
                 <div class="gridTwo">
                     <div>
-                        <div class="slideshow-container">
-                            <div class="mySlides4">
-                              <img src="../Images/3D Models/5hairfront.png" style="width:100%">
-                            </div>
-                          
-                            <div class="mySlides4">
-                              <img src="../Images/3D Models/5hairback.png" style="width:100%">
-                            </div>
-                          
-                            <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
-                            <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
-                        </div>
+                        <img src="../Images/3D Models/5hairfront.png" style="width:100%">
+                        <img src="../Images/3D Models/5hairback.png" style="width:100%">
                     </div>
 
                     <div>
@@ -173,29 +143,29 @@
                     </div>
 
                     <div>
-                        <div class="slideshow-container">
-                            <div class="mySlides5">
+                        <div class="slideshow-container" style="height:400px">
+                            <div class="mySlides2">
                                 <img src="../Images/3D Models/6UV1.png" style="width:100%;">
                             </div>
 
-                            <div class="mySlides5">
+                            <div class="mySlides2">
                                 <img src="../Images/3D Models/6UV2.png" style="width:100%">
                             </div>
 
-                            <div class="mySlides5">
+                            <div class="mySlides2">
                               <img src="../Images/3D Models/6texturebody.png" style="width:100%">
                             </div>
                           
-                            <div class="mySlides5">
+                            <div class="mySlides2">
                               <img src="../Images/3D Models/6texturecoat.png" style="width:100%">
                             </div>
 
-                            <div class="mySlides5">
+                            <div class="mySlides2">
                                 <img src="../Images/3D Models/6texturenodes.png" style="width:100%">
                               </div>
                           
-                            <a class="prev" onclick="plusSlides(-1, 5)">&#10094;</a>
-                            <a class="next" onclick="plusSlides(1, 5)">&#10095;</a>
+                            <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
                         </div>
                     </div>
 
@@ -239,13 +209,9 @@
 
         <script>
             let slideIndex = [1,1];
-            let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5"]
+            let slideId = ["mySlides1", "mySlides2"]
             showSlides(1, 0);
             showSlides(1, 1);
-            showSlides(1, 2);
-            showSlides(1, 3);
-            showSlides(1, 4);
-            showSlides(1, 5);
 
             function plusSlides(n, no) {
             showSlides(slideIndex[no] += n, no);
@@ -255,7 +221,7 @@
             let i;
             let x = document.getElementsByClassName(slideId[no]);
             if (n > x.length) {slideIndex[no] = 1}    
-            if (n < 5) {slideIndex[no] = x.length}
+            if (n < 1) {slideIndex[no] = x.length}
             for (i = 0; i < x.length; i++) {
                 x[i].style.display = "none";  
             }
