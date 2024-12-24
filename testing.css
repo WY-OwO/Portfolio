@@ -51,7 +51,7 @@ body{
     gap: 10px;
 }
 .image{
-    width:300px;
+    width:max-content;
     position:relative;
 }
 img{
