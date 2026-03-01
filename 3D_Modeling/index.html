@@ -19,180 +19,232 @@
 
         <link href="../testing.css" rel="stylesheet" type="text/css">
         <link href="slideshow.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="../Images/flex.css">
     </head>
 
     <body>
         <header>
-            <div id="navBar">
-                <h1>3D Modeling</h1>
-                <a href="../index.html"><button class="buttonNav">About</button></a> 
-                <a href="../Digital_Illustration/index.html"><button class="buttonNav">Digital Artwork</button></a>
-                <a href="../Character_Design/index.html"><button class="buttonNav">Concept Design</button></a>
-                <div class="dropdown">
-                    <button class="buttonMute">3D Modeling <span class="dropArrow">^</span></button>
-                    <div class="dropdown-content">
-                        <a href="SubPaint.html"><button class="buttonNav">Substance Painter</button></a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <a href="../Game_Design/index.html"><button class="buttonNav">Game Design <span class="dropArrow">^</span></button></a>
-                    <div class="dropdown-content">
-                        <a href="../Game_Design/Goslayer.html"><button class="buttonNav">Godslayer</button></a>
-                        <a href="../Game_Design/GDA.html"><button class="buttonNav">GDA</button></a>
-                        <a href="../Game_Design/Misc.html"><button class="buttonNav">Other Games</button></a>
-                    </div>
-                </div>
-                <a href="../Animation/index.html"><button class="buttonNav">Animation</button></a>
+            <div id="navBar" class="container" style="max-width: 1300px;">
+                <a href="../index.html"><button class="buttonNav">Home</button></a>
+                <a href="../about.html"><button class="buttonNav">About</button></a>
+                <a href="../gallery.html"><button class="buttonMute">Gallery</button></a>
+                <a href="../Game_Design/index.html"><button class="buttonNav">Game Projects</button></a>
+                <a href="../contact.html"><button class="buttonNav">Contact</button></a>
             </div>
         </header>
         <main>
-            <div class="container-md" style="max-width: 1300px; background-color: white;">
-
-                <div class="gridTwo">
-                    <img src="../Images/Concept Designs/Cadance Concept.png" style="align-self: center;" height="400px">
-                    <div>
-                        <h3 class="text-muted">A long process...</h3>
-                        <p>I am proficient with Blender, Adobe Substance Painter, and Adobe Substance Designer.</p>
-                        <p>The reference sheet to the right is the finalized concept (at the time of the project) of my character, Cadance. 
-                            The majority of the following image showcases will be the process of how I modeled him into a rigged 3D character.
-                        </p>
-                    </div>
+            <div id="bodyBG" class="container-md">
+                <h1 style="text-align: center;">3D Modeling</h1>
+                <div class="tab">
+                    <button class="tablinks" onclick="openCity(event, 'Maya')" id="defaultOpen">Maya</button>
+                    <button class="tablinks" onclick="openCity(event, 'Blender')">Blender</button>
+                    <button class="tablinks" onclick="openCity(event, 'Substance')">Adobe Substance</button>
                 </div>
 
-                <div class="gridTwo">
-                    <div>
-                        <h3 class="text-muted">Body, Hands, Feet</h3>
-                        <p>Character is drafted out into A-pose with no coloring for cleaner visuals. Closeup on hands for details and separate 
-                            modeling.</p>
-                        <p>The reference image is then imported to Blender and the body is built. I pinpointed clothes that will be on the base 
-                            so there's less to model in the clothes step. That includes the jeans and crop top. 
-                        </p>
-                    </div>
-                    <div>
-                        <img src="../Images/3D Models/1front.png" style="width:100%">
-                        <img src="../Images/3D Models/1back.png" style="width:100%">
-                    </div>
-                </div>
-
-                <div class="gridTwo">
-                    <div>
-                        <div class="slideshow-container">
-                            <div class="mySlides1">
-                              <img src="../Images/3D Models/2body.png" style="width:100%">
-                            </div>
-                          
-                            <div class="mySlides1">
-                              <img src="../Images/3D Models/2clothesback.png" style="width:100%">
-                            </div>
-                          
-                            <div class="mySlides1">
-                              <img src="../Images/3D Models/2clothesfront.png" style="width:100%">
-                            </div>
-                          
-                            <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-                            <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+                <div class="tabContent" id="Maya">
+                    <h3 style="text-align: center;">Maya</h3>
+                    <h3 class="text-muted">Primitive Snowman</h3>
+                    <div class="slideshow-container">
+                        <div class="mySlides1">
+                            <img src="../Images/3D Modeling/Maya/Snowman/FlatColor.png" style="width:100%;">
                         </div>
+                        
+                        <div class="mySlides1">
+                            <img src="../Images/3D Modeling/Maya/Snowman/Snowmanref.png" style="width:100%;">
+                        </div>
+                        
+                        <div class="mySlides1">
+                            <img src="../Images/3D Modeling/Maya/Snowman/Snow1.png" style="width:100%;">
+                        </div>
+
+                        <div class="mySlides1">
+                            <img src="../Images/3D Modeling/Maya/Snowman/Snow2.png" style="width:100%;">
+                        </div>
+                        
+                        <div class="mySlides1">
+                            <img src="../Images/3D Modeling/Maya/Snowman/Snow3.png" style="width:100%;">
+                        </div>
+
+                        <div class="mySlides1">
+                            <img src="../Images/3D Modeling/Maya/Snowman/Snow4.png" style="width:100%;">
+                        </div>
+                        
+                        <div class="mySlides1">
+                            <img src="../Images/3D Modeling/Maya/Snowman/Snow5.png" style="width:100%;">
+                        </div>
+
+                        <div class="mySlides1">
+                            <img src="../Images/3D Modeling/Maya/Snowman/Snow6.png" style="width:100%;">
+                        </div>
+
+                        <div class="mySlides1">
+                            <img src="../Images/3D Modeling/Maya/Snowman/Snow7.png" style="width:100%;">
+                        </div>
+
+                        <div class="mySlides1">
+                            <img src="../Images/3D Modeling/Maya/Snowman/Snow8.png" style="width:100%;">
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+                    </div>
+
+                    <div class="gridBoxThrees">
+                        <img src="../Images/3D Modeling/Maya/Snowman/DutchShot.jpg" style="width:400px;">
+                        <img src="../Images/3D Modeling/Maya/Snowman/MedLowShot.jpg" style="width:400px;">
+                        <img src="../Images/3D Modeling/Maya/Snowman/WideShot.jpg" style="width:400px;">
+                    </div>
+
+                    <br>
+
+                    <h3 class="text-muted">Oakeshott Type XX Sword</h3>
+                    <div class="gridTwo">
+                        <img src="../Images/3D Modeling/Maya/Sword/SwordRender.jpg" style="width:300px;">
+                        <img src="../Images/3D Modeling/Maya/Sword/SwordFront.png" style="width:300px;">
+                        <img src="../Images/3D Modeling/Maya/Sword/SwordPerspective.png" style="width:300px;">
+                        <img src="../Images/3D Modeling/Maya/Sword/SwordSide.png" style="width:300px;">
                     </div>
                     
-                    <div>
-                        <h3 class="text-muted">Clothes</h3>
-                        <p>The extra clothes on top of the base pose/clothes will be added here. For this character, this includes the jacket and 
-                            the belt on the back above the tail.
-                        </p>
-                        <p>It was at this step that I realize T-pose for modeling character will be more ideal, since I was having trouble with 
-                            the jacket's sleeve, unable to properly shape the parts of the underarm. In hindsight, weight painting will be more 
-                            difficult than it already will be. 
-                        </p>
-                    </div>
                 </div>
+                
 
-                <div class="gridTwo">
-                    <div>
-                        <h3 class="text-muted">Head Sculpting and Retopology</h3>
-                        <p>Sculpting the head and retopologize on top, maintaining all shapes as quadrilaterals for best effect later on 
-                            in texturing.</p>
+                <div class="tabContent" id="Blender">
+                    <h3 style="text-align: center;">Blender</h3>
+                    <p>I've learned the character creation pipeline as: character conception (along with A- or T-Pose Reference) -> building model 
+                        from feet/legs to torso to arms/hands -> Head sculpting and retopology -> UV Unwrap and Texturing (with Adobe Substance 
+                        Painter and Designer) -> Rigging and ready for animation.
+                    </p>
+
+                    <div class="gridTwo">
+                        <img src="../Images/Concept Designs/Cadance Concept.png" style="align-self: center;" height="400px">
+                        <img src="../Images/3D Modeling/Blender/Front:Side Views.png" style="width:100%">
                     </div>
 
-                    <div>
-                        <img src="../Images/3D Models/3head.png" style="width:100%">
-                        <img src="../Images/3D Models/4head.png" style="width:100%">
-                    </div>
-                </div>
-
-                <div class="gridTwo">
-                    <div>
-                        <img src="../Images/3D Models/5hairfront.png" style="width:100%">
-                        <img src="../Images/3D Models/5hairback.png" style="width:100%">
+                    <br>
+                    <h3 class="text-muted">Body, Hands, Feet</h3>
+                    <div class="gridTwo">
+                        <img src="../Images/3D Modeling/Blender/1front.png" style="width:100%">
+                        <img src="../Images/3D Modeling/Blender/1back.png" style="width:100%">
                     </div>
 
-                    <div>
-                        <h3 class="text-muted">Hair</h3>
-                        <p>Building the hair with curves and paths, since the design is structured as standing strands of thick hair. 
-                            I've realized a better way of executing this is to make each "strand" thick so that it covers more area, 
-                            and makes rendering later on much easier to handle.</p>
-                    </div>
-                </div>
-
-                <div class="gridTwo">
-                    <div>
-                        <h3 class="text-muted">UV Unwrap and Texturing</h3>
-                        <p>UV unwrap at the seams and aiming to have everything to be ordered in their regional pieces. The file 
-                            will then be imported into Adobe Substance Painter to be textured. After texturing, the file will be brought 
-                            back to Blender to connect texture nodes.</p>
-                    </div>
-
-                    <div>
-                        <div class="slideshow-container">
-                            <div class="mySlides2">
-                                <img src="../Images/3D Models/6UV1.png" style="width:100%;">
-                            </div>
-
-                            <div class="mySlides2">
-                                <img src="../Images/3D Models/6UV2.png" style="width:100%">
-                            </div>
-
-                            <div class="mySlides2">
-                              <img src="../Images/3D Models/6texturebody.png" style="width:100%">
-                            </div>
-                          
-                            <div class="mySlides2">
-                              <img src="../Images/3D Models/6texturecoat.png" style="width:100%">
-                            </div>
-
-                            <div class="mySlides2">
-                                <img src="../Images/3D Models/6texturenodes.png" style="width:100%">
-                              </div>
-                          
-                            <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
-                            <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                    <br>
+                    <h3 class="text-muted">Clothes</h3>
+                    <p>I've changed the A-pose to T-pose after realizing the difficulty of modeling the outfit near the armpits and 
+                        upper arm.
+                    </p>
+                    <div class="slideshow-container">
+                        <div class="mySlides2">
+                        <img src="../Images/3D Modeling/Blender/2body.png" style="width:100%">
                         </div>
+                    
+                        <div class="mySlides2">
+                        <img src="../Images/3D Modeling/Blender/2clothesback.png" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides2">
+                        <img src="../Images/3D Modeling/Blender/2clothesfront.png" style="width:100%">
+                        </div>
+                    
+                        <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
                     </div>
+
+                    <br>
+                    <h3 class="text-muted">Head Sculpting and Retopology</h3>
+                    <div class="gridTwo">
+                        <img src="../Images/3D Modeling/Blender/3head.png" style="width:100%">
+                        <img src="../Images/3D Modeling/Blender/4head.png" style="width:100%">
+                    </div>
+
+                    <br>
+                    <h3 class="text-muted">Hair</h3>
+                    <p>Building the hair with curves and paths, since the design is structured as standing strands of thick hair. 
+                        I've realized a better way of executing this is to make each "strand" thick so that it covers more area, 
+                        and makes rendering later on much easier to handle.</p>
+                    <div class="gridTwo">
+                        <img src="../Images/3D Modeling/Blender/5hairfront.png" style="width:100%">
+                        <img src="../Images/3D Modeling/Blender/5hairback.png" style="width:100%">
+                    </div>
+
+                    <br>
+                    <h3 class="text-muted">UV Unwrap and Texturing</h3>
+                    <p>UV unwrap at the seams and aiming to have everything to be ordered in their regional pieces. The file 
+                        will then be imported into Adobe Substance Painter to be textured. After texturing, the file will be brought 
+                        back to Blender to connect texture nodes.</p>
+                    <div class="slideshow-container">
+                        <div class="mySlides3">
+                            <img src="../Images/3D Modeling/Blender/6UV1.png" style="width:100%;">
+                        </div>
+
+                        <div class="mySlides3">
+                            <img src="../Images/3D Modeling/Blender/6UV2.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides3">
+                        <img src="../Images/3D Modeling/Blender/6texturebody.png" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides3">
+                        <img src="../Images/3D Modeling/Blender/6texturecoat.png" style="width:100%">
+                        </div>
+
+                        <div class="mySlides3">
+                            <img src="../Images/3D Modeling/Blender/6texturenodes.png" style="width:100%">
+                        </div>
+                    
+                        <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+                    </div>
+
+                    <br>
+                    <h3 class="text-muted">Rigging and Test Animation</h3>
+                    <video width="550px" controls style="margin:auto; display:block;">
+                        <source src="../Images/3D Modeling/Blender/Cadance Run.mp4" type="video/mp4" style="width:100%;">
+                    </video>
+                </div>
+                <br> 
+
+                <div class="tabContent" id="Substance">
+                    <h3 style="text-align: center;">Adobe Substance Painter and Designer</h3>
+                    <h3 class="text-muted">MeetMat Momo</h3>
+                    <p>I really liked Momo from the game Stray (2022), and thought it would be an interesting choice to transform Momo onto a 
+                        MeetMat. I sketched out my idea and pinpointed what needs to be modeled separately in Blender (Hat, hat strap, chin wirings).
+                    </p>
+                
+                    <img src="../Images/3D Modeling/SubPaint/MeetMatMoMo.jpg" class="center" style="width: 900px;">
+                    <div class="gridBoxThrees">
+                        <img src="../Images/3D Modeling/SubPaint/Momo Sketch.jpg" style="width: 250px;">
+                        <img src="../Images/3D Modeling/SubPaint/Momo Moodboard.jpg" style="width:200px;">
+                        <img src="../Images/3D Modeling/SubPaint/MeetMat Blender.png" style="width:500px;">
+                    </div>
+
+                    <br>
+                    <h3 class="text-muted">Jacket Design</h3>
+                    <div class="gridTwo">
+                        <img src="../Images/3D Modeling/SubPaint/Jacket1.jpg" style="width:550px">
+                        <img src="../Images/3D Modeling/SubPaint/Jacket2.jpg" style="width:550px">
+                    </div>
+
+                    <br>
+                    <h3 class="text-muted">Scales and Mixer</h3>
+                    <div class="gridTwo">
+                        <img src="../Images/3D Modeling/SubPaint/Scale.jpg" style="width:550px">
+                        <img src="../Images/3D Modeling/SubPaint/Mixer.jpg" style="width:550px">
+                    </div>
+                    
+
                 </div>
 
-                <div class="gridTwo">
-                    <div>
-                        <video width="550px" controls>
-                            <source src="../Images/3D Models/Cadance Run.mp4" type="video/mp4" style="width:100%">
-                        </video>
-                    </div>
 
-                    <div>
-                        <h3 class="text-muted">Rigged and Animated</h3>
-                        <p>Weight painting on Blender was unrecorded. The most difficult parts were the hips, 
-                            surprisingly, since the automatic weight painting applied was including various vertices 
-                            that the weight painted parts had no associations with, specifically the parts where the 
-                            wings and tail were. Professor told me that Blender isn't the wisest when it comes to weight 
-                            painting. I am interested in attempting weight painting in Maya now.</p>
-                        <p>Rigging to a running sequence was relatively easy to make.</p>
-                    </div>
-                </div>
+                
             </div>
         </main>
         <footer>
-            <hr>
+            <br>
             <div id="foot">
                 <p>Contact Me</p>
                 <p>jjv_2014@hotmail.com | (+86) 1-381-752-2995 | (+1) 831-226-9963</p>
+                <p><a href="https://www.linkedin.com/in/jocelyn-chiang-7923b1267/">LinkedIn Page</a></p>
             </div>
         </footer>
         <!-- Bootstrap JavaScript Libraries -->
@@ -208,11 +260,15 @@
             crossorigin="anonymous"
         ></script>
 
+        <script src="../tabJava.js"></script>
+
         <script>
             let slideIndex = [1,1];
-            let slideId = ["mySlides1", "mySlides2"]
+            /*Add mySlides here!*/
+            let slideId = ["mySlides1", "mySlides2","mySlides3"]
             showSlides(1, 0);
             showSlides(1, 1);
+            showSlides(1, 2);
 
             function plusSlides(n, no) {
             showSlides(slideIndex[no] += n, no);
@@ -221,14 +277,22 @@
             function showSlides(n, no) {
             let i;
             let x = document.getElementsByClassName(slideId[no]);
-            if (n > x.length) {slideIndex[no] = 1}    
-            if (n < 1) {slideIndex[no] = x.length}
+            if (n > x.length) {slideIndex[no] = 1}
+            /*Change the below number if there's more mySlides added!*/
+            if (n < 2) {slideIndex[no] = x.length}
             for (i = 0; i < x.length; i++) {
                 x[i].style.display = "none";  
             }
             x[slideIndex[no]-1].style.display = "block";  
             }
         </script>
+
+        <script>
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click(); 
+        </script>
+
+        <script src="../Images/darkbox.js"></script>
     </body>
 </html>
 
