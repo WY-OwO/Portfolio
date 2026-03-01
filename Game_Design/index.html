@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Game Design</title>
+        <title>Game Projects</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -18,80 +18,129 @@
         />
 
         <link href="../testing.css" rel="stylesheet" type="text/css">
-        <link href="../Images/flex.css" rel="stylesheet" tyle="text/css">
+        <link href="../Images/flex.css" rel="stylesheet" type="text/css">
+        <link href="../linkStyle.css" rel="stylesheet" type="text/css">
     </head>
 
     <body>
         <header>
-            <div id="navBar">
-                <h1>Game Design</h1>
-                <a href="../index.html"><button class="buttonNav">About</button></a>
-                <a href="../Digital_Illustration/index.html"><button class="buttonNav">Digital Artwork</button></a>
-                <a href="../Character_Design/index.html"><button class="buttonNav">Concept Design</button></a>
-                <div class="dropdown">
-                    <a href="../3D_Modeling/index.html"><button class="buttonNav">3D Modeling <span class="dropArrow">^</span></button></a>
-                    <div class="dropdown-content">
-                        <a href="../3D_Modeling/SubPaint.html"><button class="buttonNav">Substance Painter</button></a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <button class="buttonMute">Game Design <span class="dropArrow">^</span></button>
-                    <div class="dropdown-content">
-                        <a href="Goslayer.html"><button class="buttonNav">Godslayer</button></a>
-                        <a href="GDA.html"><button class="buttonNav">GDA</button></a>
-                        <a href="Misc.html"><button class="buttonNav">Other Games</button></a>
-                    </div>
-                </div>
-                <a href="../Animation/index.html"><button class="buttonNav">Animation</button></a>
+            <div id="navBar" class="container-md" style="max-width: 1300px;">
+                <a href="../index.html"><button class="buttonNav">Home</button></a>
+                <a href="../about.html"><button class="buttonNav">About</button></a>
+                <a href="../gallery.html"><button class="buttonNav">Gallery</button></a>
+                <button class="buttonMute">Game Projects</button>
+                <a href="../contact.html"><button class="buttonNav">Contact</button></a>
             </div>
         </header>
+
         <main>
-            <div class="container-md" style="max-width: 1300px; background-color: white;">
-                <div class="container col-md-12 p-3 mb-3 border-0 bg-faded">
-                    <p>Studied in University of California, Santa Cruz, I've participated in multiple game 
-                        developments with my fellow game design classmates. I've actively taken on the role of character concept artist, 
-                        sprite artist, and animator. Below are some main projects I've taken part in.</p>
+            <div id="bodyBG" class="container-md">
+                <div style="width:100%; height: 280px; display: flex; justify-content: center;">
+                    <div class="image">
+                        <div class="container bg-faded" style="background-size: cover; background-position: center;
+                        background-image: url(../Images/Games/QuestForDendoro/TitleBG.png); height: 200px; width: 1300px; opacity:25%;">
+                        </div>
+                        <div id="titleBG" class="container" style="text-align: center; font-size: 600%;">
+                            <p>Game Projects</p>
+                        </div>
+                    </div>
                 </div>
                 
-                <div class="wrapper">
-                    <a href="Goslayer.html">
-                        <div class="image">
-                            <div class="card col-md-9 border-0 bg-faded" style="background-size: cover; background-position: center;
-                            background-image: url(../Images/Games/Godslayer/AAA\ Icon\ Fin\ copy.png); height: 300px; width:300px;">
-                            </div>
-                            <div class="content">
-                                <p>Godslayers (2024)</p>
-                            </div>
-                        </div>
-                    </a>
-                    
-                    <a href="GDA.html">
-                        <div class="image">
-                            <div class="card col-md-9 border-0 bg-faded" style="background-size: cover; background-position: center;
-                            background-image: url(../Images/Games/Malisense/The\ Disgraced\ Shaded\ copy.png); height: 300px; width:300px;">
-                            </div>
-                            <div class="content">
-                                <p>GDA Games</p>
-                            </div>
-                        </div>
-                    </a>
-                    
-                    <a href="Misc.html">
-                        <div class="image">
-                            <div class="card col-md-9 border-0 bg-faded" style="background-size: cover; background-position: center;
-                            background-image: url(../Images/Games/Go\ with\ the\ flow/J2_Flow_Sprite.png); height: 300px; width:300px;">
-                            </div>
-                            <div class="content">
-                                <p>Other Games</p>
+                <div class="projectCard">
+                    <a href="goodWork.html">
+                        <div class="gridTwo">
+                            <img src="https://ggjv4.s3.us-west-1.amazonaws.com/files/styles/flexslider_full/s3/games/2026/871592/screenshot/ScreenShot_2026-02-01_173842_354.png?VersionId=vBF9h7v6DUxkBKUI5ZGrYduC4sNJYZYn&itok=NRXT7Pxa" 
+                            style="width:250px;">
+                            <div style="width:400px;">
+                                <h2>Global Game Jam: Keep Up The Good Work! (Jan 26 - Feb 1, 2026)</h2>
+                                <p>TBA.
+                                </p>
+                                <p><b>Roles:</b> Concept artist, asset artist, level designer, UI artist</p>
                             </div>
                         </div>
                     </a>
                 </div>
+                
+                <br>
+                
+                <div class="projectCard">
+                    <a href="QforDendoro.html">
+                        <div class="gridTwo">
+                            <img src="https://img.itch.zone/aW1hZ2UvMzk5NDEzNS8yNDQ2Mzg3My5wbmc=/794x1000/zY9O26.png" style="width:250px;">
+                            <div style="width:400px;">
+                                <h2>Quest For Dendoro (Oct - Dec 2025)</h2>
+                                <p>A 2.5D action-adventure RPG about a protagonist, an adventure in a fantasy world, must recover a magical 
+                                    artifact stolen by a band of raccoons to save the village of Dendoro. The protagonist explores the world, 
+                                    solving puzzles and finding enemies to progress through levels.
+                                </p>
+                                <p><b>Roles:</b> Character concept artist, level designer, UI artist, title screen artist</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <br>
+
+                <div class="projectCard">
+                    <a href="GDA.html#WellWitch">
+                        <div class="gridTwo">
+                            <img src="https://img.itch.zone/aW1hZ2UvMzM4ODEwOS8yMTgwMDA3My5wbmc=/794x1000/dQyvrl.png" style="width:250px;"></img>
+                            <div style="width:400px;">
+                                <h2>Well Witches (Jan - Jun 2025)</h2>
+                                <p>Testing testing testing</p>
+                                <p><b>Roles:</b> Character concept artist, sprite animator, cover art artist</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <br>
+
+                <div class="projectCard">
+                    <a href="GDA.html#Malisense">
+                        <div class="gridTwo">
+                            <img src="https://img.itch.zone/aW1hZ2UvMjcxMzEzOS8xNjUwNTI2Mi5wbmc=/794x1000/T9EBCb.png" style="width:250px;"></img>
+                            <div style="width:400px;">
+                                <h2>Malisense (Jan - Jun 2024)</h2>
+                                <p>Testing testing testing</p>
+                                <p><b>Roles:</b> Character concept artist, background artist, title screen artist, trailer animator</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <br> 
+
+                <div class="projectCard">
+                    <a href="Godslayer.html">
+                        <div class="gridTwo">
+                            <img src="https://img.itch.zone/aW1hZ2UvMjUwNzg5OS8xNjgxNTg0Ny5wbmc=/original/Z58sbM.png" style="width:250px;"></img>
+                            <div style="width:400px;">
+                                <h2>Godslayer (Jan - Jun 2024)</h2>
+                                <p>Testing testing testing</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <br>
+
+                <div class="projectCard">
+                    <a href="Misc.html">
+                        <div class="gridTwo">
+                            <img src="../Images/Games/Walk With Us/Downhill.png" style="width:250px;"></img>
+                            <div style="width:400px;">
+                                <h2>Other Games</h2>
+                                <p>Testing testing testing</p>
+                                <p><b>Roles:</b> Character concept artist, sprite artist, animator, background artist</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <br>
             </div>
-        </main>
 
         <footer>
-            <hr>
             <div id="foot">
                 <p>Contact Me</p>
                 <p>jjv_2014@hotmail.com | (+86) 1-381-752-2995 | (+1) 831-226-9963</p>
