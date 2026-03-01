@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Wei-Yan Chiang Portfolio</title>
+        <title>Jocelyn's Portfolio</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -22,70 +22,48 @@
 
     <body>
         <header>
-            <div id="navBar">
-                <h1>About</h1>
-                <button class="buttonMute">About</button>
-                <a href="Digital_Illustration/index.html"><button class="buttonNav">Digital Artwork</button></a>
-                <a href="Character_Design/index.html"><button class="buttonNav">Concept Design</button></a>
-                <div class="dropdown">
-                    <a href="3D_Modeling/index.html"><button class="buttonNav">3D Modeling <span class="dropArrow">^</span></button></a>
-                    <div class="dropdown-content">
-                        <a href="3D_Modeling/SubPaint.html"><button class="buttonNav">Substance Painter</button></a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <a href="Game_Design/index.html"><button class="buttonNav">Game Design <span class="dropArrow">^</span></button></a>
-                    <div class="dropdown-content">
-                        <a href="Game_Design/Goslayer.html"><button class="buttonNav">Godslayer</button></a>
-                        <a href="Game_Design/GDA.html"><button class="buttonNav">GDA</button></a>
-                        <a href="Game_Design/Misc.html"><button class="buttonNav">Other Games</button></a>
-                    </div>
-                </div>
-                <a href="Animation/index.html"><button class="buttonNav">Animation</button></a>
+            <div id="navBar" class="container" style="max-width: 1300px;">
+                <button class="buttonMute">Home</button>
+                <a href="about.html"><button class="buttonNav">About</button></a>
+                <a href="gallery.html"><button class="buttonNav">Gallery</button></a>
+                <a href="Game_Design/index.html"><button class="buttonNav">Game Projects</button></a>
+                <a href="contact.html"><button class="buttonNav">Contact</button></a>
             </div>
         </header>
         <main>
 
-            <div class="container-md" style="max-width: 1300px; background-color: white;">
+            <div id="bodyBG" class="container-md">
                 
-                <div class="gridTwo">
-                    <img src="Images/Iz me.jpg" style="display: block; max-height:550px; width:auto;">
-                    
-                    <div style="width:650px">
-                        <h2>Wei-Yan (Jocelyn) Chiang</h2>
-                        <h3>24 • She/They</h3>
-                        <p>I'm a digital artist and animator with a great passionate for character design. During my own time I love to design a 
-                            variety of characters, from tech-punk people to fantastical beasts, and tell stories with them. I also love to play 
-                            a variety of games, from action-adventure to strategy to puzzle games. To name a few, I love Baldurs Gate 3, 
-                            Hades, Slay The Spire, Spiral Knights, and Contexto! I am a diligent team 
-                            player and look forward to connect to like-minded creators passionate for character designs, game developers, and 
-                            storytellers!
-                        </p>
-                        <p>Achievements and experiences include...</p>
-                        <ul>
-                            <li>Masters of Science in Game Science and Design at Northeastern University, Oakland (2027)</li>
-                            <li>Arts and Designs: Games & Playable Media B.A. from University of California: Santa Cruz (2025)</li>
-                            <li>Business Managerial Economics B.A. from University of California: Santa Cruz (2025)</li>
-                            <br>
-                            <li>15+ years of visual arts experience (traditional and digital), 3+ years of animation experience</li>
-                            <li>3D modeling experience (Blender, Substance Painter, Substance Designer)</li>
-                            <li>HTML/CSS and JavaScript (this entire portfolio site)</li>
-                            <li>Proficient in English and Mandarin as first language</li>
-                        </ul>
+                <div style="width:100%; height: 280px; display: flex; justify-content: center;">
+                    <div class="image">
+                        <div class="container-md bg-faded" style="background-size: cover; background-position: center;
+                        background-image: url(Images/NoidBGCover.jpg); min-height: 270px; width: 1300px; opacity:25%;">
+                        </div>
+                        <div id="titleBG" class="container">
+                            <p>Jocelyn Chiang's <br>Portfolio</p>
+                        </div>
                     </div>
                 </div>
+                
+                <div class="flex" style="flex-wrap: wrap; max-width: 700px; height:10%; margin-left:auto; margin-top:auto;">
+                    <p style="text-indent: 25px; font-family: Arial; color:#364156">
+                    Character concept artist with 10+ years of illustration experience and 3+ years of 
+                    2D game artist and animator experience. Designed character sprites for multiple games 
+                    based on descriptions of varied details, conceptualized full artowrks based on complete 
+                    games such as cover art and title screen. 
+                    </p>
+                </div>
 
-                <hr>
                 <br>
-                <h2 style="text-align: center;" class="text-muted">Here's what I can do!</h3>
+                <h2 style="text-align: center;" class="text-muted">Explore More!</h2>
                 <div class="wrapper">
-                    <a href="Digital_Illustration/index.html">
+                    <a href="Digital_Artwork/index.html">
                         <div class="image">
                             <div class="card col-md-9 border-0 bg-faded" style="background-size: cover; background-position: right;
                             background-image: url(Images/Other/Artfight2025.png); height: 250px; width:240px;">
                             </div>
                             <div class="content" style="text-align: center;">
-                                <p>Digital Illustration</p>
+                                <p>Digital Artwork</p>
                             </div>
                         </div>
                     </a>
@@ -104,7 +82,7 @@
                     <a href="3D_Modeling/index.html">
                         <div class="image">
                             <div class="card col-md-9 border-0 bg-faded" style="background-size: cover; background-position: center;
-                            background-image: url(Images/SubPaint/MeetMatMoMo.jpg); height: 250px; width:240px;">
+                            background-image: url(Images/3D\ Modeling/SubPaint/MeetMatMoMo.jpg); height: 250px; width:240px;">
                             </div>
                             <div class="content">
                                 <p>3D Modeling</p>
@@ -138,7 +116,7 @@
             
         </main>
         <footer>
-            <hr>
+            <br>
             <div id="foot">
                 <p>Contact Me</p>
                 <p>jjv_2014@hotmail.com | (+86) 1-381-752-2995 | (+1) 831-226-9963</p>
