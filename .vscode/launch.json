@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "/Users/froggohop/Documents/GitHub/Portfolio/Game_Design/index.html"
+            "file": "/Users/froggohop/Documents/GitHub/Portfolio/index.html"
         }
     ]
 }
