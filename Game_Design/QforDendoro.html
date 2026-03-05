@@ -18,7 +18,7 @@
         />
 
         <link href="../testing.css" rel="stylesheet" type="text/css">
-        <link href="../Images/flex.css" rel="stylesheet" tyle="text/css">
+        <link href="../Images/flex.css" rel="stylesheet" type="text/css">
     </head>
 
     <body>
@@ -44,34 +44,44 @@
                 <h4 style="text-indent: 25px;">Character concept artist, sprite artist, animator, level designer, UI artist, title screen artist.</h4>
 
                 <div class="tab">
-                    <button class="tablinks" onclick="openCity(event, 'concept')">Concept Art</button>
-                    <button class="tablinks" onclick="openCity(event, 'sprite')" id="defaultOpen">Sprite & Animation</button>
+                    <button class="tablinks" onclick="openCity(event, 'concept')"  id="defaultOpen">Concept Art</button>
+                    <button class="tablinks" onclick="openCity(event, 'sprite')">Sprite & Animation</button>
                     <button class="tablinks" onclick="openCity(event, 'level')">Level Design</button>
                     <button class="tablinks" onclick="openCity(event, 'ui')">UI and Title</button>
                 </div>
 
                 <div class="tabContent" id="concept">
                     <h3 class="text-muted">Concept Artwork</h3>
-                    <div id="flexGallery">
-                        <img src="../Images/Games/QuestForDendoro/Bird_Concept.png">
-                        <img src="../Images/Games/QuestForDendoro/Bird_Old.png">
-                        <img src="../Images/Games/QuestForDendoro/tigerfly_concept.png">
-                        <img src="../Images/Games/QuestForDendoro/Raccoon placeholder.gif">
-                        <img src="../Images/Games/QuestForDendoro/Player_Concept1.jpg">
-                        <img src="../Images/Games/QuestForDendoro/Player_Concept2.jpg">
-                    </div>
+                    <ul>
+                        <li><img src="../Images/Games/QuestForDendoro/Bird_Concept.png"></li>
+                        <li><img src="../Images/Games/QuestForDendoro/Bird_Old.png"></li>
+                        <li><img src="../Images/Games/QuestForDendoro/tigerfly_concept.png"></li>
+                        <li><img src="../Images/Games/QuestForDendoro/Raccoon placeholder.gif"></li>
+                        <li><img src="../Images/Games/QuestForDendoro/Player_Concept1.jpg"></li>
+                        <li><img src="../Images/Games/QuestForDendoro/Player_Concept2.jpg"></li>
+                    </ul>
+                    <p style="text-indent: 25px;">After interviewing the students of their interest in playable character(s), 
+                        the team was given the impression that they enjoy customizability in the character they play as, from 
+                        cosmetics to weapons. They show strong interest in a companion creature not limited to existing animals. 
+                        As for aesthetics inspiration of games, the children favors cartoonish styles like <i>Pokemon</i>, <i>Fall Guys</i>, 
+                        <i>Eggy Party</i>, and <i>Animal Crossing</i>. They favor things like clean line art, flexible details, vibrant 
+                        colors, a chibi art style for the characters (the kind that is about 2-3 heads proportion), organic style overall, 
+                        with a top-down perspective throughout the game, similar to <i>Among Us</i>.
+                    </p>
 
                     <h3 class="text-muted">First Iteration of Player Character</h3>
+                    <div class="gridBoxThrees">
+                        <img src="../Images/Games/QuestForDendoro/Player/PlayerV1Draft1.png" style="width: 300px;">
+                        <img src="../Images/Games/QuestForDendoro/Player/PlayerV1Draft2.png" style="width: 300px;">
+                        <img src="../Images/Games/QuestForDendoro/Player/PlayerV1Draft3.png" style="width: 300px;">
+                    </div>
+                    <p style="text-indent: 25px;">After conception of player character</p>
                 </div>
                 
+
+
                 <div class="tabContent" id="sprite">
                     <h3 class="text-muted">Sprite Art & Animation</h3>
-                    <div id="flexGallery">
-                        <img src="../Images/Games/QuestForDendoro/BlueBird.gif">
-                        <img src="../Images/Games/QuestForDendoro/Bird_Particle.png">
-                        <img src="../Images/Games/QuestForDendoro/Raccoon_Attack.gif">
-                        <img src="../Images/Games/QuestForDendoro/Raccoon_Dead.png">
-                    </div>
 
                     <h3 class="text-muted">Player Character Animation (Unity Interface)</h3>
                     <div class="gridTwo">
@@ -113,11 +123,42 @@
                             </video>
                             <p>Dead animation</p>
                         </div>
+
+                        <div>
+                            <img src="../Images/Games/QuestForDendoro/Player/Player_Build.gif">
+                            <p>Player character layers order</p>
+                        </div>
+                        <p style="text-indent: 25px;">The player character is inspired by the player character from <i>Spiral Knights</i>, with 
+                        a chibi proportion similar to what the children preferred and an obscurity on its identity to focus more on the customization 
+                        of the outfit rather than facial and head features like hair and head accessories. Due to time constraint, majority of the 
+                        promised customizability had to be simplified to customizability only on the overall color palette. </p>
                     </div>
+
+                    <h3 class="text-muted">Scrapped Designs</h3>
+                    <div class="gridBoxThrees" style="max-width: 1300px;">
+                        <img src="../Images/Games/QuestForDendoro/Player/PlayerV1Draft1.png">
+                        <img src="../Images/Games/QuestForDendoro/Player/PlayerV1Draft2.png">
+                        <img src="../Images/Games/QuestForDendoro/Player/PlayerV1Draft3.png">
+                    </div>
+                    <p style="text-indent: 25px;">The first version of the player </p>
                 </div>
 
                 <div class="tabContent" id="level">
                     <h3 class="text-muted">Level Design</h3>
+                    <p style="text-indent: 25px;">Closely working with one of my cohort members, Nathan Lawson,  we were actively working on the 
+                        level designs, inspired by our favorite games such as <i>Spiral Knights</i> and <i>Kirby</i>. 
+                    </p>
+                    <div clas="gridTwo">
+                        <div>
+                            <img src="../Images/Games/QuestForDendoro/Forest_Level1.png">
+                            <p>Forest biome: Level 1, Version 1</p>
+                        </div>
+                        <p style="text-indent: 25px;">TBA</p>
+
+                        <div>
+                            <img src="../Images/Games/QuestForDendoro/Forest_Level1_v2.png">
+                        </div>
+                    </div>
                 </div>
 
                 
@@ -146,6 +187,11 @@
 
         <script src="../Images/darkbox.js"></script>
         <script src="../tabJava.js"></script>
+
+        <script>
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click(); 
+        </script>
 
     </body>
 </html>
