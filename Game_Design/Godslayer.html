@@ -33,13 +33,13 @@
 
         <main>
             <div id="bodyBG" class="container-md">
+                <h1 style="text-align: center;">Godslayer</h1>
+                <h3 style="text-align: center;"><a href="https://henry-tripp-barrick.itch.io/godslayers">Download from itch.io!</a></h3>
                 <div class="container col-md-12 p-3 mb-3 border-0 bg-faded">
                     <div class="gridTwo">
-                        <div style="width: 400px;">
-                            <img src="../Images/Games/Godslayer/AAA Icon Fin copy.png">
-                        </div>
+                        <img src="../Images/Games/Godslayer/AAA Icon Fin copy.png" style="width: 500px; display:block; margin-left: auto; margin-right:auto;">
                         <div>
-                            <p>For my capstone game project (Game Design II and III), I have teamed up with a handful of talented artists, 
+                            <p style="text-indent: 25px;">For my capstone game project (Game Design II and III), I have teamed up with a handful of talented artists, 
                                 writers and coders to make Godslayer. Godslayer is a turn-base time loop RPG featuring four playable characters fighting 
                                 the final boss of their adventure to save their home. The goal is to strategically use the 
                                 unlocked player skills to defeat the final boss five times. There would be character 
@@ -51,18 +51,61 @@
                             <h4 style="text-indent: 25px;">Character concept artist, style guide artist, sprite artist, animator, VFX artist, 
                                 misc.
                             </h4>
+                            <p>Programs Used: Clip Studio Paint, Adobe Animate</p>
                         </div>
                     </div>
+
+                    <div class="tab">
+                        <button class="tablinks" onclick="openCity(event, 'character')"  id="defaultOpen">Character Art/Animation</button>
+                        <button class="tablinks" onclick="openCity(event, 'vfx')">VFX Animation</button>
+                        <button class="tablinks" onclick="openCity(event, 'ui')">UI and Title</button>
+                        <button class="tablinks" onclick="openCity(event, 'misc')">Misc.</button>
+                    </div>
                     
-                    <h3 style="text-align: center;">Character Concept</h3>
-                    <p>Provided with the basic ideas of the four playable characters and two NPCs, the character concepts were 
-                        well-accepted by both the team and the playtesters.
-                    </p>
-                    <div class="gridTwo">
-                        <div>
-                            
-                            <p style="font-weight: bold;">Playable- Luna</p>
-                            <p>Our first character, Luna, is an honorable moon-themed knight. Descendant of a royal lineage, Luna is 
+                    <div class="tabContent" id="character">
+                        <h3 style="text-align: center;">Character Art and Animation</h3>
+                        <p>Provided with the basic ideas of the four playable characters and two NPCs, the character concepts were 
+                            well-accepted by both the team and the playtesters.
+                        </p>
+
+                        <h3 class="text-muted">Style Conceptualization</h3>
+                        <img src="../Images/Games/Godslayer/Style Sheet finalized copy.png" style="width: 500px; display:block; margin-left: auto; margin-right:auto;">
+                        <p style="text-indent: 25px;">As the main artist working on the in-game sprites, I made a style sheet to see what the 
+                            team will deem best fit for the game. Testing out two styles I work best with, the team concluded with style 1, given 
+                            additional changes. <b>The team likes the idea of a ready battle stance, 4-head proportion chibi style with a good 
+                            amoung of room left for outfit details.</b> I've pitched verbally how the sprites can be shaded: <b>cel-shade with 
+                            light source pointing at the face and downwards, and highlights placed mainly on the eyes, hair, any metallic surfaces, 
+                            and potentially magic particles</b> (depending on character design later). The team approves of this idea and I left it 
+                            open-ended that it's subject to change once the sprite art comes out.
+                        </p>
+                        <p style="text-indent: 25px;">The following character designs were developed from the loose descripitons from the writers of the 
+                            team. I was provided with visual references of inspired characters along with verbal descriptions. A complimentary halfbody 
+                            portrait sketch were sent to a fellow artist in the team to finish.
+                        </p>
+
+                        <div class="tab">
+                            <button class="tablinks2" onclick="openChar(event, 'luna')"  id="defaultOpen2">Playable: Luna</button>
+                            <button class="tablinks2" onclick="openChar(event, 'luciel')">Playable: Luciel</button>
+                            <button class="tablinks2" onclick="openChar(event, 'rowan')">Playable: Rowan</button>
+                            <button class="tablinks2" onclick="openChar(event, 'cain')">Playable: Cain</button>
+                            <button class="tablinks2" onclick="openChar(event, 'abel')">NPC: Abel</button>
+                            <button class="tablinks2" onclick="openChar(event, 'god')">Final Boss</button>
+                        </div>
+
+                        <div class="tabContent2" id="luna">
+                            <h3 class="text-muted">Playable Character: Luna</h3>
+                            <div class="gridTwo" style="text-align: center;">
+                                <div>
+                                    <img src="../Images/Games/Godslayer/Luna Concept.png" style="width: 650px;">
+                                    <p class="text-muted">Concept Art</p>
+                                </div>
+                                <div>
+                                    <img src="../Images/Games/Godslayer/HalfB Luna.png" style="height:400px;">
+                                    <p class="text-muted">Halfbody portrait sketch for in-game dialogue</p> 
+                                </div>
+                                
+                            </div>
+                            <p style="text-indent: 25px;">Our first character, Luna, is an honorable moon-themed knight. Descendant of a royal lineage, Luna is 
                                 meant to be the leader figure of the group, properly armored and wields a sword and dagger. With 
                                 that in mind, I expect a character like her to be prioritizing practicaltiy over aesthetics. Starting with 
                                 her hairstyle, I experimented with a ponytail, a short hair, and a half ponytail. The team unanimously 
@@ -74,17 +117,33 @@
                                 with two shades of grey for the base armor and sash, while keeping the skin color, hair color, and armor 
                                 highlight the same in both versions. After the team's review, we agreed on the darker grey design. 
                             </p>
-                            <p>It was not added here in the concept sheet but Luna will have a moon flower on her shoulder between her 
+                            <p style="text-indent: 25px;">It was not added here in the concept sheet but Luna will have a moon flower on her shoulder between her 
                                 shoulder armor and chest armor, as a subtle representation of her relationship with one of the playable 
                                 characters: Rowan. 
                             </p>
+                            
+                            
+                            <h3 class="text-muted">In-Game Sprites</h3>
+                            <div style="text-align: center;">
+                                <img src="../Images/Games/Godslayer/Sprite/Luna default.gif">
+                                <img src="../Images/Games/Godslayer/Sprite/Luna damage.gif">
+                                <img src="../Images/Games/Godslayer/Sprite/Luna dead.gif">
+                            </div>
                         </div>
-                        <img src="../Images/Games/Godslayer/Luna Concept.png" style="height:420px;">
 
-                        <img src="../Images/Games/Godslayer/Luciel Concept.png" style="height:420px;">
-                        <div>
-                            <p style="font-weight: bold;">Playable- Luciel</p>
-                            <p>Our second character, Luciel, is a teenage assassin. Picked up by Luna during her early adventures, Luciel 
+                        <div class="tabContent2" id="luciel">
+                            <h3 class="text-muted">Playable Character: Luciel</h3>
+                            <div class="gridTwo" style="text-align: center;">
+                                <div>
+                                    <img src="../Images/Games/Godslayer/Luciel Concept.png" style="width: 650px;">
+                                    <p class="text-muted">Concept Art</p>
+                                </div>
+                                <div>
+                                    <img src="../Images/Games/Godslayer/HalfB Luciel.png" style="height:400px;">
+                                    <p class="text-muted">Halfbody portrait sketch for in-game dialogue</p> 
+                                </div>
+                            </div>
+                            <p style="text-indent: 25px;">Our second character, Luciel, is a teenage assassin. Picked up by Luna during her early adventures, Luciel 
                                 joined for the thrill of the kill on a righteous path. We expect him to be very "emo" and commit to the 
                                 edgy theme, so I was adding everything I can think of that was considered cool when I was a teenager. Black 'n 
                                 red color palette, hair covering the eye, dyed hair, eye shadow, hoodie with red 'scars', words in Mandarin/Kanji 
@@ -92,11 +151,28 @@
                                 design, the team agrees he should have a katana, inspired by samurai, which we believe he would aspire to be just as 
                                 powerful as. Luciel was the character I had the least struggle with design-wise. 
                             </p>
+
+                            <h3 class="text-muted">In-Game Sprites</h3>
+                            <div style="text-align: center;">
+                                <img src="../Images/Games/Godslayer/Sprite/Luciel default.gif">
+                                <img src="../Images/Games/Godslayer/Sprite/Luciel damage.gif">
+                                <img src="../Images/Games/Godslayer/Sprite/Luciel dead.gif">
+                            </div>
                         </div>
 
-                        <div>
-                            <p style="font-weight: bold;">Playable- Rowan</p>
-                            <p>Our third character, Rowan, is a barbarian with a big sister energy. She's meant to have a big build with more 
+                        <div class="tabContent2" id="rowan">
+                            <h3 class="text-muted">Playable Character: Rowan</h3>
+                            <div class="gridTwo" style="text-align: center;">
+                                <div>
+                                    <img src="../Images/Games/Godslayer/Rowan Concept.png" style="width: 650px;">
+                                    <p class="text-muted">Concept Art</p>
+                                </div>
+                                <div>
+                                    <img src="../Images/Games/Godslayer/HalfB Rwan draft wh.png" style="height:400px;">
+                                    <p class="text-muted">Halfbody portrait sketch for in-game dialogue</p>
+                                </div>
+                            </div>
+                            <p style="text-indent: 25px;">Our third character, Rowan, is a barbarian with a big sister energy. She's meant to have a big build with more 
                                 nature-related traits such as plant decorations and natural-textured weapons. I imagined her to be very practical 
                                 in outfit and decided on short-hair styles, light outfit with less but thick armor, and a hatchet and a shield. 
                                 Her colors would be more earth-toned and it wasn't much a struggle to decide on. The team intends to have Luna 
@@ -104,61 +180,82 @@
                                 galaxy-textured fabric. Subtle detail for those who are interested but doesn't feel out of character.
                             </p>
                         </div>
-                        <img src="../Images/Games/Godslayer/Rowan Concept.png">
 
-                        <img src="../Images/Games/Godslayer/Cain concept.png">
-                        <div>
-                            <p style="font-weight: bold;">Playable- Cain</p>
-                            <p>Our last but not least playable character, Cain, </p>
+                        <div class="tabContent2" id="cain">
+                            <h3 class="text-muted">Playable Character: Cain</h3>
+                            <div class="gridTwo" style="text-align: center;">
+                                <div>
+                                    <img src="../Images/Games/Godslayer/Cain concept.png" style="width: 650px;">
+                                    <p class="text-muted">Concept Art</p>
+                                </div>
+                                <div>
+                                    <img src="../Images/Games/Godslayer/HalfB Cain.png" style="height:400px;">
+                                    <p class="text-muted">Halfbody portrait sketch for in-game dialogue</p>
+                                </div>
+                            </div>
+                            <p style="text-indent:25px;">Our fourth and final playable character, Cain, is a wizard that's </p>
+                        </div>
+                    </div>
+                    
+
+                    <div class="tabContent" id="vfx">
+                        <h3 style="text-align: center;">Animated Visual Effects</h3>
+                        <p style="text-indent: 25px;">I was eager to put in more frame-by-frame animation into the game while I had the chance. 
+                            As part of the intended game experience, the team wanted visual effects when the players attack with each character. 
+                            Despite we weren't able to implement any attack animation, we thought the visual effects can enhance the gameplay 
+                            experience. 
+                        </p>
+                        <p style="text-indent:25px;">Below are the raw VFX, recording of in-game results coming soon...</p>
+                        <div class="gridTwo">
+                            <div>
+                                <img src="../Images/Games/Godslayer/VFX/Luna-Default.gif" style="width: 500px;">
+                                <p>Luna default attack</p>
+                            </div>
+                            <div>
+                                <img src="../Images/Games/Godslayer/VFX/Luna-Explode.gif" style="width: 500px;">
+                                <p>Luna explosive attack</p>
+                            </div>
+                            <div>
+                                <img src="../Images/Games/Godslayer/VFX/Luciel-Default.gif" style="width: 500px;">
+                                <p>Luciel default attack</p>
+                            </div>
+                            <div>
+                                <img src="../Images/Games/Godslayer/VFX/Luciel-BigSlash.gif" style="width: 500px;">
+                                <p>Luciel big slash attack</p>
+                            </div>
+                            <div>
+                                <img src="../Images/Games/Godslayer/VFX/Rowan-Default.gif" style="width: 500px;">
+                                <p>Rowan default attack</p>
+                            </div>
+                            <div>
+                                <img src="../Images/Games/Godslayer/VFX/Rowan-Shield.gif" style="width: 500px;">
+                                <p>Rowan shield protection</p>
+                            </div>
+                            <div>
+                                <img src="../Images/Games/Godslayer/VFX/Rowan-Taunt.gif" style="width: 500px;">
+                                <p>Rowan taunt effect</p>
+                            </div>
+                            <div>
+                                <img src="../Images/Games/Godslayer/VFX/Cain-Default.gif" style="width: 500px;">
+                                <p>Cain default attack</p>
+                            </div>
+                            <div>
+                                <img src="../Images/Games/Godslayer/VFX/buffed.gif" style="width: 500px;">
+                                <p>Character buffed effect (set to be recolored in game based on status)</p>
+                            </div>
                         </div>
                     </div>
 
-                    <ul>
-                        <li>
-                            <img src="../Images/Games/Godslayer/Final Boss.png">
-                        </li>
-                        <li>
-                            
-                        </li>
-                    </ul>
 
-                    
-                    <h3 style="text-align: center;">Style Guide</h3>
-                    <div class="container-md" style="max-width: 700px;">
-                        <img src="../Images/Games/Godslayer/Style Sheet finalized copy.png">
+                    <div class="tabContent" id="ui">
+                        <h3 style="text-align: center;">UI and Title Screen</h3>
                     </div>
-                    <p>As the main artist working on the in-game sprites, I made a style sheet to see what the team will deem best fit for the 
-                        game. Testing out two styles I mainly do, the team concluded with style 1 with changes.
-                    </p>
 
 
-                    <h3 style="text-align: center;">Halfbody Portraits</h3>
-                    <div class="container-md" style="max-width: 1200px;">
-                        <ul>
-                            <li>
-                                <img src="../Images/Games/Godslayer/HalfB Luna.png">
-                            </li>
-                            <li>
-                                <img src="../Images/Games/Godslayer/HalfB Luciel.png">
-                            </li>
-                            <li>
-                                <img src="../Images/Games/Godslayer/HalfB Rwan draft wh.png">
-                            </li>
-                            <li>
-                                <img src="../Images/Games/Godslayer/HalfB Cain.png">
-                            </li>
-                        </ul>
+                    <div class="tabContent" id="misc">
+                        <h3 style="text-align: center;">Miscellaneous Tasks</h3>
                     </div>
-                    <p></p>
-                    
 
-
-
-                    <div class="gridBoxThrees">
-                        <img src="../Images/Games/Godslayer/Sprite/Luna default.gif">
-                        <img src="../Images/Games/Godslayer/Sprite/Luna damage.gif">
-                        <img src="../Images/Games/Godslayer/Sprite/Luna dead.gif">
-                    </div>
                 </div>
             </div>
         </main>
@@ -168,4 +265,18 @@
             <p>jjv_2014@hotmail.com | (+86) 1-381-752-2995 | (+1) 831-226-9963</p>
         </div>
     </body>
+    
+    <script src="../Images/darkbox.js"></script>
+    <script src="../tabJava.js"></script>
+    
+    <script>
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click(); 
+    </script>
+
+    <script>
+        // Get the element with id="defaultOpen2" and click on it
+        document.getElementById("defaultOpen2").click(); 
+    </script>
+
 </html>
