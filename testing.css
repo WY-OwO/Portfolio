@@ -41,6 +41,9 @@ body{
     .wrapper {
         width:50%;
     }
+    .gridTwo {
+        grid-template-columns: auto;
+    }
 }
 
 
