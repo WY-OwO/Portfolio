@@ -298,3 +298,10 @@ body{
     display:none;
     padding:6px 12px;
 }
+
+
+video {
+    max-width: 700px;
+    width: 80vw;
+    height: auto;
+}
