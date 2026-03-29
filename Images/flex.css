@@ -45,7 +45,7 @@ li:last-child {
     column-count:         3;
    }
 }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
    #flexGallery {
     -moz-column-count:    2;
     -webkit-column-count: 2;
@@ -60,6 +60,6 @@ li:last-child {
    }
 }
 
-#darkbox { width:1280px; height:720px; position:absolute; top:0; left:0; background-color:#232323; overflow: hidden; text-align:center;}
-.darkboximg { padding:5%; max-width: 1250px; max-height: 700px;}
+#darkbox { width:1270px; height:720px; position:absolute; top:0; left:0; background-color:#171717; overflow: hidden; text-align:center;}
+.darkboximg { padding:5%; max-width: 1500px; max-height: 800px;}
 
