@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Jocelyn's Portfolio</title>
+        <title>Jocelyn Chiang's Portfolio</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -18,6 +18,7 @@
         />
 
         <link href="testing.css" rel="stylesheet" type="text/css">
+        <link href="Images/flex.css" rel="stylesheet" type="text/css">
     </head>
 
     <body>
@@ -33,84 +34,121 @@
 
             <div id="bodyBG" class="container-md">
                 
-                <div style="width:100%; height: 280px; display: flex; justify-content: center;">
+                <div style="max-width:100%; height: 280px; display: flex; justify-content: center;">
                     <div class="image">
                         <div class="container-md bg-faded" style="background-size: cover; background-position: center;
-                        background-image: url(Images/NoidBGCover.jpg); min-height: 270px; width: 1300px; opacity:25%;">
+                        background-image: url(Images/NoidBGCover.jpg); height: 270px; max-width: 1300px; width:100vw; opacity:25%;">
                         </div>
-                        <div id="titleBG" class="container">
+                        <div id="titleBG" class="container-sm">
                             <p>Jocelyn Chiang's <br>Portfolio</p>
                         </div>
                     </div>
                 </div>
                 
-                <div class="flex" style="flex-wrap: wrap; max-width: 700px; height:10%; margin-left:auto; margin-top:auto;">
+                <div class="flex" style="flex-wrap: wrap; max-width: 700px; height:10%; margin-left:auto; margin-top:auto; margin-bottom: 50px;">
                     <p style="text-indent: 25px; font-family: Arial; color:#364156">
-                    Character concept artist with 10+ years of illustration experience and 3+ years of 
+                    Character artist with 10+ years of illustration experience and 3+ years of 
                     2D game artist and animator experience. Designed character sprites for multiple games 
                     based on descriptions of varied details, conceptualized full artworks based on complete 
                     games such as cover art and title screen. 
                     </p>
                 </div>
 
-                <br>
-                <h2 style="text-align: center;" class="text-muted">Explore More!</h2>
+                <h3 class="text-muted" style="text-align: center;">Highlights</h3>
+                <div class="gridBoxThrees">
+                    <img src="Images/Other/NocturnComm.png" style="max-width: 300px;">
+                    <img src="Images/Other/JinWang.png" style="max-width: 400px;">
+                    <img src="Images/Other/DewnBaby.png" style="max-width: 500px; width:80vw;">
+                </div>
+                <div style="left:0; right: 0;">
+                    <div class="wrapper">
+                        <a href="Digital_Artwork/index.html">
+                            <div class="image">
+                                <div class="card col-md-9 border-0 bg-faded" style="background-size: cover; background-position: right;
+                                background-image: url(Images/Other/Artfight2025.png); height: 100px; width:80vw; max-width:500px;">
+                                </div>
+                                <div class="content">
+                                    <p>More Digital Artwork Here</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="gridBoxThrees">
+                    <img src="Images/Concept Designs/Hell Lark.png" style="max-width: 350px;">
+                    <img src="Images/Concept Designs/Multi Outfit Concept.png" style="max-width: 400px;">
+                    <img src="Images/Concept Designs/PomeloRedesign.jpg" style="max-width: 400px;">
+                </div>
                 <div class="wrapper">
-                    <a href="Digital_Artwork/index.html">
-                        <div class="image">
-                            <div class="card col-md-9 border-0 bg-faded" style="background-size: cover; background-position: right;
-                            background-image: url(Images/Other/Artfight2025.png); height: 250px; width:240px;">
-                            </div>
-                            <div class="content" style="text-align: center;">
-                                <p>Digital Artwork</p>
-                            </div>
-                        </div>
-                    </a>
-                    
                     <a href="Character_Design/index.html">
                         <div class="image">
                             <div class="card col-md-9 border-0 bg-faded" style="background-size: cover; background-position: center;
-                            background-image: url(Images/Concept\ Designs/Hell\ Lark.png); height: 250px; width:240px;">
+                            background-image: url(Images/Concept\ Designs/Multi\ Hair\ Concept.png); height: 100px; width:80vw; max-width:500px;">
                             </div>
                             <div class="content">
-                                <p>Concept Design</p>
-                            </div>
-                        </div>
-                    </a>
-                    
-                    <a href="3D_Modeling/index.html">
-                        <div class="image">
-                            <div class="card col-md-9 border-0 bg-faded" style="background-size: cover; background-position: center;
-                            background-image: url(Images/3D\ Modeling/SubPaint/MeetMatMoMo.jpg); height: 250px; width:240px;">
-                            </div>
-                            <div class="content">
-                                <p>3D Modeling</p>
-                            </div>
-                        </div>
-                    </a>
-                    
-                    <a href="Game_Design/index.html">
-                        <div class="image">
-                            <div class="card col-md-9 border-0 bg-faded" style="background-size: cover; background-position: center;
-                            background-image: url(Images/Games/QuestForDendoro/TitleScreen.png); height: 250px; width:240px;">
-                            </div>
-                            <div class="content">
-                                <p>Game Art</p>
-                            </div>
-                        </div>
-                    </a>
-
-                    <a href="Animation/index.html">
-                        <div class="image">
-                            <div class="card col-md-9 border-0 bg-faded" style="background-size: cover; background-position: center;
-                            background-image: url(Images/Animation/wyw.gif); height: 250px; width:240px;">
-                            </div>
-                            <div class="content">
-                                <p>Animation</p>
+                                <p>More Character Design Here</p>
                             </div>
                         </div>
                     </a>
                 </div>
+
+                <div class="gridBoxThrees">
+                    <img src="Images/Games/GoodWork/MaskChange.gif" style="max-width: 400px;">
+                    <img src="Images/Games/QuestForDendoro/UI/Customization.png" style="max-width: 400px;">
+                    <img src="Images/Games/QuestForDendoro/UI/Controls.png" style="max-width: 400px;">
+                </div>
+                <div class="wrapper">
+                    <a href="uidesign/index.html">
+                        <div class="image">
+                            <div class="card col-md-9 border-0 bg-faded" style="background-size: cover; background-position: center;
+                            background-image: url(Images/Games/GoodWork/Concept\ 4.png); height: 100px; width:80vw; max-width:500px;">
+                            </div>
+                            <div class="content">
+                                <p>More UI Design Here</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="gridBoxThrees">
+                    <img src="Images/3D Modeling/Maya/Snowman/DutchShot.jpg" style="max-width: 400px;">
+                    <img src="Images/3D Modeling/Blender/2clothesfront.png" style="max-width: 400px;">
+                    <img src="Images/3D Modeling/SubPaint/Jacket1.jpg" style="max-width: 400px;">
+                </div>
+                <div class="wrapper">
+                    <a href="3D_Modeling/index.html">
+                        <div class="image">
+                            <div class="card col-md-9 border-0 bg-faded" style="background-size: cover; background-position: center;
+                            background-image: url(Images/3D\ Modeling/SubPaint/MeetMatMoMo.jpg); height: 100px; width:80vw; max-width:500px;">
+                            </div>
+                            <div class="content">
+                                <p>More 3D Modeling Here</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="gridBoxThrees">
+                    <img src="Images/Animation/Rasayen-Bop.gif" style="max-width: 400px;">
+                    <img src="Images/Games/QuestForDendoro/BlueBird.gif" style="max-width: 400px;">
+                    <img src="Images/Games/Well Witches/Warden run final.gif" style="max-width: 400px;">
+                </div>
+                <div class="wrapper">
+                    <a href="Animation/index.html">
+                        <div class="image">
+                            <div class="card col-md-9 border-0 bg-faded" style="background-size: cover; background-position: center;
+                            background-image: url(Images/Animation/wyw.gif); height: 100px; width:80vw; max-width: 500px;">
+                            </div>
+                            <div class="content">
+                                <p>More Animation Here</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <br>
+                
             </div>
             
         </main>
@@ -133,5 +171,7 @@
             integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
             crossorigin="anonymous"
         ></script>
+
+        <script src="Images/darkbox.js"></script>
     </body>
 </html>
