@@ -64,9 +64,6 @@ body{
     .gridBoxFours {
         grid-template-columns: auto;
     }
-    .projectCard {
-        width:500px;
-    }
 }
 
 
