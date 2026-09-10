@@ -1,0 +1,49 @@
+.start {
+    background-image: url("../Images/Games/FactoryReset/Button_Start1.png");
+    background-size:cover;
+    background-position: center;
+}
+
+.start:hover {
+    background-image: url("../Images/Games/FactoryReset/Button_Start2.png");
+}
+
+.option {
+    background-image: url("../Images/Games/FactoryReset/Button_Options1.png");
+    background-size:cover;
+    background-position: center;
+}
+
+.option:hover {
+    background-image: url("../Images/Games/FactoryReset/Button_Options2.png");
+}
+
+.credits {
+    background-image: url("../Images/Games/FactoryReset/Button_Credits1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.credits:hover {
+    background-image: url("../Images/Games/FactoryReset/Button_Credits2.png");
+}
+
+.menu {
+    background-image: url("../Images/Games/FactoryReset/Button_Menu1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.menu:hover {
+    background-image: url("../Images/Games/FactoryReset/Button_Menu2.png");
+}
+
+.exit {
+    background-image: url("../Images/Games/FactoryReset/Button_Exit1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.exit:hover {
+    background-image: url("../Images/Games/FactoryReset/Button_Exit2.png");
+}
