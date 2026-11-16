@@ -54,6 +54,19 @@ li:last-child {
    }
 }
 
-#darkbox { width:1270px; height:720px; position:absolute; top:0; left:0; background-color:#171717; overflow: hidden; text-align:center;}
-.darkboximg { padding:5%; max-width: 1500px; max-height: 800px;}
+#darkbox { 
+    max-width:1920px; 
+    max-height:1080px; 
+    position:absolute; 
+    top:0; 
+    left:0; 
+    background-color:rgba(19,19,19,0.9); 
+    text-align:center;
+}
+.darkboximg { 
+    padding:5%; 
+    max-width: 1400px; 
+    max-height: 800px; 
+    object-fit:contain;
+}
 
