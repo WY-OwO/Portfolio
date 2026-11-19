@@ -2,8 +2,8 @@ let darkBoxVisible = false;
 
 function showDarkbox(url) {
    if(!darkBoxVisible) {
-    let x = window.innerWidth / 6;
-    let y = window.scrollY + 80;
+    let x = (window.innerWidth - 1280) / 2;
+    let y = window.scrollY + 70;
     // Create the darkBox
     var div = document.createElement("div");
     div.id = "darkbox";
@@ -11,7 +11,7 @@ function showDarkbox(url) {
     document.body.appendChild(div);
     let box = document.getElementById("darkbox");
     box.style.left = x.toString()+"px";
-    box.style.top =  y.toString()+"px";
+    box.style.top = y.toString()+"px";
     box.style.height = 'auto';
     box.addEventListener('click', (event) => {
      // Remove it
